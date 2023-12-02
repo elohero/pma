@@ -1,0 +1,275 @@
+body {
+  font-family: 'TT Norms Pro';
+  font-size: 16px;
+  color: black;
+}
+
+header {
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+
+  .navbar-brand {
+    margin-right: 38px;
+  }
+
+  nav {
+    width: 100%;
+    height: 75px;
+  }
+
+  .dropdown-menu {
+    background: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    border: none;
+    padding: 56px 0 0;
+    position: relative;
+    top: -19px;
+    margin: 0;
+    z-index: 0;
+  }
+
+  .dropdown-item {
+    font-size: 14px;
+    padding: 9px 20px 9px 26px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-light .navbar-nav{
+    .nav-item{
+      &.dropdown{
+        a{
+          position: relative;
+          z-index: 1;
+        }
+      }
+      .nav-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #333333;
+        padding: 0 22px;
+      }
+    }
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .menu-right {
+    align-items: center;
+  }
+  .menu-contact {
+    margin-right: 35px;
+    a {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+      text-decoration: none;
+    }
+    img{
+      margin-top: -5px;
+    }
+  }
+}
+
+.home-products {
+  padding-top: 24px;
+
+  h3.all-products {
+    margin-bottom: 35px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 25px;
+    flex-wrap: wrap;
+    .product {
+      width: 200px;
+      .img {
+        background-color: #e6e6e6;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 4.5px;
+        height: 125px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .title {
+        margin: 3px 0;
+        display: block;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000
+      }
+      .description {
+        font-size: 12px;
+        line-height: 19px;
+        color: #000000;
+        margin-bottom: 5px;
+      }
+      .price {
+        b {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 23px;
+          color: #000000;
+          margin-right: 18px;
+        }
+
+        span {
+          font-size: 12px;
+          line-height: 23px;
+          color: #828282;
+        }
+      }
+    }
+  }
+
+  .pagination-block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+    ul {
+      li{
+        a{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 25px;
+          color: #000000;
+          width: 41px;
+          height: 41px;
+          border-radius: 5px;
+          text-align: center;
+          border: 0 solid #dee2e6;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        &.active {
+          a{
+            background: #DC851F;
+            color: white;
+            margin: 0 4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background: #DC851F;
+  padding: 34px 0;
+  color: #FFFFFF;
+
+  a {
+    color: #FFFFFF;
+    &:hover {
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+  }
+  .footer_bottom {
+  margin-top: 9px;
+    font-size: 12.5px;
+    line-height: 32px;
+    font-family: 'TT Hoves';
+  }
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-left {
+      .phones {
+        display: flex;
+        justify-content: space-between;
+        .phone-item {
+          display: flex;
+          flex-direction: column;
+          margin-right: 60px;
+          &:last-child {
+            margin-right: 0;
+          }
+
+          span {
+            font-size: 12px;
+            line-height: 32px;
+          }
+
+          a {
+            font-weight: 500;
+            font-size: 18.5px;
+            line-height: 39px;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      .work-email {
+        display: flex;
+        flex-direction: column;
+        a {
+          margin-top: 10px;
+          font-size: 18.5px;
+          line-height: 32px;
+        }
+      }
+    }
+    .footer-right{
+      .work-time {
+        font-size: 18px;
+        line-height: 32px;
+      }
+    }
+  }
+}
+
+.page-content {
+  padding: 45px 0 60px;
+
+  h1 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33px;
+    color: #000000;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #828282;
+  }
+
+  li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #828282;
+  }
+}
