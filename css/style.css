@@ -1,7 +1,13 @@
-body {
+body,
+html {
   font-family: 'TT Norms Pro';
   font-size: 16px;
   color: black;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 header {
   background: #ffffff;
@@ -64,6 +70,7 @@ header .menu-contact img {
 }
 .home-products {
   padding-top: 24px;
+  flex: 1;
 }
 .home-products h3.all-products {
   margin-bottom: 35px;
@@ -147,6 +154,7 @@ footer {
   background: #DC851F;
   padding: 34px 0;
   color: #FFFFFF;
+  margin-top: auto;
 }
 footer a {
   color: #FFFFFF;
