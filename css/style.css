@@ -240,4 +240,92 @@ footer .footer-wrapper .footer-right .work-time {
   line-height: 26px;
   color: #828282;
 }
+.card {
+  padding: 60px 0;
+}
+.card .card-top {
+  display: flex;
+  justify-content: space-between;
+}
+.card .card-top .card-img {
+  width: 67%;
+  height: 427px;
+  background: #F9F9F9;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card .card-top .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .card-top .card-sidebar {
+  width: 30%;
+  background: #FFFFFF;
+  box-shadow: 0 0 27px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  padding: 30px;
+}
+.card .card-top .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.card .card-top .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.card .card-top .price span {
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 22px;
+  color: #C6C6C6;
+}
+.card .card-top .price b {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.card .card-top .weight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .card-top .weight span {
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 22px;
+  color: #C6C6C6;
+}
+.card .card-top .weight b {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.card .card-bottom {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.card .card-bottom .card-info {
+  width: 100%;
+}
+.card .card-bottom .card-info h2.tab {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.card .card-bottom .card-info p {
+  font-size: 18px;
+  line-height: 19px;
+  color: #828282;
+}
 /*# sourceMappingURL=style.css.map */
